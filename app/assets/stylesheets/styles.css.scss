@@ -1,0 +1,30 @@
+/* You could change the font */
+/* @import url (http://fonts.googleleapis.com) */
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white; 
+$baseFontFamily: Oxygen; 
+$bodyBackground: green;
+@import url(http://fonts.googleleapis.com/css?family=Oxygen);
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+	padding-left: 60px;
+	padding-right: 60px;
+	
+}
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
